@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #498cd8 !important;
+    border-color: #498cd8 !important;
+}
+
+
+
+#topnav {
+    background: linear-gradient(90deg,#1c4960 11.17%,#48a1bd 58.25%,#d1c333);
+}
