@@ -9,6 +9,7 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { WorkingWithFaiComponent } from './components/about-us/working-with-fai/working-with-fai.component';
 import { TeamComponent } from './components/about-us/team/team.component';
+import { TechnologyComponent } from './components/common/technology/technology.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TeamComponent } from './components/about-us/team/team.component';
     FooterComponent,
     LandingComponent,
     WorkingWithFaiComponent,
-    TeamComponent
+    TeamComponent,
+    TechnologyComponent
   ],
   imports: [
     BrowserModule,
