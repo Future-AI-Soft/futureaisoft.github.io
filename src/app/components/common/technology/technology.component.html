@@ -1,3 +1,41 @@
+<section class="d-table w-100 saas-development-preview-section page-section--preview">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Technology</a></li>
+                <li class="breadcrumb-item" aria-current="page">{{breadcrumbTitle}}</li>
+            </ol>
+        </nav>
+        <div class="row align-items-center">
+            <div class="col-lg-12 col-md-10">
+                <div class="title-heading mb-md-3">
+                    <h1
+                        class="landing-header landing-header--undecorated landing-header--light landing-header--align-left">
+                        {{techTitle}}</h1>
+                </div>
+                <p class="landing-header--light-details">{{serviceDesc}}</p>
+            </div>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
+<!--end section-->
+<section class="page-section bg-mild-gray">
+    <div class="container">
+        <div class="page-section__block">
+            <h2 class="landing-header landing-header--align-left">{{servicesTitle}}</h2>
+            <div class="row">
+                <div class="col-md-6" *ngFor="let item of services; index as i;">
+                    <div class="pr-lg-36">
+                        <ul class="styled-list">
+                            <li *ngFor="let service of item; index as j;">{{service}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<p>technology works!</p>
-
+</section>

@@ -1,0 +1,170 @@
+.saas-development-preview-section:before {
+    background-image: url(https://www.kandasoft.com/wp-content/themes/pinboard/images/sas-bg.png);
+}
+
+.page-section--preview:before {
+    background: url(https://www.kandasoft.com/wp-content/themes/pinboard/dist/images/startups-bg.png) scroll 50%/cover no-repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.page-section--preview {
+    background: -webkit-linear-gradient(right,#05734d,#045899);
+    background: linear-gradient(270deg,#05734d,#045899);
+    margin-top: 0;
+    padding: 138px 0 84px;
+    position: relative;
+}
+
+.breadcrumb, .breadcrumb-item a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.breadcrumb, .breadcrumb-item a {
+    opacity: .8;
+}
+
+.landing-header--light {
+    color: #fff;
+}
+
+.landing-header--light-details{
+    color: rgb(182, 180, 180);
+}
+
+.page-section {
+    padding: 76px 0;
+}
+
+.bg-mild-gray {
+    background-color: #f6f6f6!important;
+}
+
+.page-section__block {
+    display: block;
+    margin: 0 auto;
+    max-width: 1104px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .landing-header.landing-h2, h2.landing-header {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width: 576px){
+
+    .landing-header.landing-h2, h2.landing-header {
+        font-size: 32px;
+    }
+}
+.landing-header.landing-h2, h2.landing-header {
+    font-size: 28px;
+}
+
+.landing-header--align-left {
+    text-align: left;
+}
+
+.page-section__block .landing-header {
+    color: #1e202e;
+    display: block;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    margin: 0 0 66px;
+    text-align: center;
+    position: relative;
+}
+
+.page-section__block .landing-header--align-left:after {
+    left: 0;
+    right: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.page-section__block .landing-header:after {
+    background: #299872;
+    bottom: -26px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 32%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+    width: 72px;
+}
+
+@media (min-width: 1024px){
+    .pr-lg-36, .px-lg-36 {
+        padding-right: 36px!important;
+    }
+}
+
+.styled-list, .styled-list ol, .styled-list ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.styled-list li {
+    display: block;
+    line-height: 1.375;
+    padding: 6px 0 6px 24px;
+    position: relative;
+}
+.styled-list li:before {
+    color: #36b68a;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 1em;
+}
+
+.styled-list li:before {
+    content: "\2611";
+}
+
+.styled-list li:before {
+    display: inline-block;
+    font-family: icomoon,sans-serif!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: auto;
+    speak: none;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+}
+
+
+
+
+
+
+
