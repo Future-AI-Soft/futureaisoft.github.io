@@ -16,6 +16,14 @@ import { DotnetComponent } from './components/technology/dotnet/dotnet.component
 import { PythonComponent } from './components/technology/python/python.component';
 import { PhpComponent } from './components/technology/php/php.component';
 import { DatascienceComponent } from './components/technology/datascience/datascience.component';
+import { ServicesComponent } from './components/common/services/services.component';
+import { CustomSoftwareComponent } from './components/services/custom-software/custom-software.component';
+import { WebApplicationComponent } from './components/services/web-application/web-application.component';
+import { MobileApplicationComponent } from './components/services/mobile-application/mobile-application.component';
+import { QaAndTestingServicesComponent } from './components/services/qa-and-testing-services/qa-and-testing-services.component';
+import { FrontendUiUxComponent } from './components/services/frontend-ui-ux/frontend-ui-ux.component';
+import { ApplicationMaintananceAndSupportComponent } from './components/services/application-maintanance-and-support/application-maintanance-and-support.component';
+import { DevopsServiceComponent } from './components/services/devops-service/devops-service.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +40,15 @@ import { DatascienceComponent } from './components/technology/datascience/datasc
     DotnetComponent,
     PythonComponent,
     PhpComponent,
-    DatascienceComponent
+    DatascienceComponent,
+    ServicesComponent,
+    CustomSoftwareComponent,
+    WebApplicationComponent,
+    MobileApplicationComponent,
+    QaAndTestingServicesComponent,
+    FrontendUiUxComponent,
+    ApplicationMaintananceAndSupportComponent,
+    DevopsServiceComponent
   ],
   imports: [
     BrowserModule,

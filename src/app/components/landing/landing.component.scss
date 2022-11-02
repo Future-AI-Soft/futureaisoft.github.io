@@ -1,0 +1,210 @@
+.page-section {
+    padding: 76px 0;
+}
+
+.bg-snow-white {
+    background-color: #fafafa !important;
+}
+
+.page-section__block {
+    display: block;
+    margin: 0 auto;
+    max-width: 1104px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+.front-page-content .page-section.how-kanda-can-help-section .landing-header {
+    margin-bottom: 77px;
+}
+
+@media (min-width: 768px) {
+
+    .landing-header.landing-h2,
+    h2.landing-header {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .landing-header.landing-h2,
+    h2.landing-header {
+        font-size: 32px;
+    }
+}
+
+.landing-header.landing-h2,
+h2.landing-header {
+    font-size: 28px;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.landing-header {
+    font-family: Roboto-Light;
+}
+
+.landing-header:after {
+    background: #299872;
+    bottom: -26px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    width: 72px;
+}
+
+.items-list--directions {
+    margin-bottom: -80px;
+}
+
+.items-list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: -24px;
+    overflow: hidden;
+}
+
+.items-list,
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.items-list--directions .items-list__item {
+    margin-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+    .items-list--four .items-list__item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 576px) {
+    .items-list--four .items-list__item {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.items-list__item {
+    margin-bottom: 24px;
+}
+
+.items-list--four .items-list__item-inner {
+    max-width: 252px;
+}
+
+.items-list__item-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+}
+
+.items-list--directions .items-list__item-inner .item-heading {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 64px;
+    overflow: hidden;
+    position: relative;
+}
+
+a,
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #498cd8;
+    background-color: transparent;
+}
+
+.items-list--directions .items-list__item-inner a.item-title {
+    color: #000;
+    text-decoration: none;
+}
+
+.items-list--directions .items-list__item-inner .item-title {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.1764705882;
+    margin-top: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+// sec
+.bg-image-team {
+    background: scroll center 40%/auto no-repeat #373a43;
+}
+
+.item-heading {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    color: #36b68a;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: .01em;
+    line-height: 1;
+    min-height: 0;
+    padding: 23px 0;
+}
+
+.item-title {
+    color: #fff;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
