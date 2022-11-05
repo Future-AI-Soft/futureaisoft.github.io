@@ -24,6 +24,10 @@ import { QaAndTestingServicesComponent } from './components/services/qa-and-test
 import { FrontendUiUxComponent } from './components/services/frontend-ui-ux/frontend-ui-ux.component';
 import { ApplicationMaintananceAndSupportComponent } from './components/services/application-maintanance-and-support/application-maintanance-and-support.component';
 import { DevopsServiceComponent } from './components/services/devops-service/devops-service.component';
+import { CloudPartnersComponent } from './components/common/cloud-partners/cloud-partners.component';
+import { AwsComponent } from './components/cloud-partners/aws/aws.component';
+import { GoogleComponent } from './components/cloud-partners/google/google.component';
+import { AzureComponent } from './components/cloud-partners/azure/azure.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import { DevopsServiceComponent } from './components/services/devops-service/dev
     QaAndTestingServicesComponent,
     FrontendUiUxComponent,
     ApplicationMaintananceAndSupportComponent,
-    DevopsServiceComponent
+    DevopsServiceComponent,
+    CloudPartnersComponent,
+    AwsComponent,
+    GoogleComponent,
+    AzureComponent
   ],
   imports: [
     BrowserModule,
