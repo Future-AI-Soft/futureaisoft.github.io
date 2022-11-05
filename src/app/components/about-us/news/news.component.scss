@@ -1,0 +1,113 @@
+.page-section--blog {
+    padding: 63px 0 120px;
+}
+.landing-header {
+    color: #1e202e;
+    display: block;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    margin: 0 0 66px;
+    text-align: center;
+    position: relative;
+}
+.page-section__block {
+    display: block;
+    margin: 0 auto;
+    max-width: 1104px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+.news-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0 -12px -30px;
+    max-width: none;
+    overflow: hidden;
+}
+:after, :before {
+    box-sizing: border-box;
+}
+.nav-wrapper {
+    text-align: center;
+    margin: 30px 0;
+}
+.page-section__block:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.news-item-inner {
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 9px rgb(0 0 0 / 5%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 896px;
+    padding: 24px 12px;
+}
+.news-item-inner__title {
+    color: #002a2a;
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.166666667;
+    margin: 0 0 20px;
+    text-decoration: none;
+}
+.thumb-container__img-wrap{
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: auto;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+inner__title:hover {
+    color: #498cd8;
+    text-decoration: underline;
+}
+news-item-inner__title {
+    color: #002a2a;
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.166666667;
+    margin: 0 0 20px;
+    text-decoration: none;
+}
+.titleFont{
+    font-family: roboto;
+
+}
+.landing-header:after {
+    background: #299872;
+    bottom: -26px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+    width: 72px;
+}

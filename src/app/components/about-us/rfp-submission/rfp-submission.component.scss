@@ -1,0 +1,177 @@
+.page-section--preview:before {
+    background: url(https://www.kandasoft.com/wp-content/themes/pinboard/dist/images/startups-bg.png) scroll 50%/cover no-repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.page-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1020;
+}
+.contact-us-preview-section:before {
+    background-image: url("/assets/about/rfp/contact-us-bg.png");
+}
+.page-section--preview {
+    background: -webkit-linear-gradient(right,#05734d,#045899);
+    background: linear-gradient(270deg,#05734d,#045899);
+    margin-top: -90px;
+    padding: 138px 0 84px;
+    position: relative;
+}
+.landing-header--align-left {
+    text-align: left;
+}
+.landing-header--light {
+    color: #fff;
+}
+.landing-header--undecorated {
+    margin-bottom: 40px;
+}
+.landing-header {
+    color: #1e202e;
+    display: block;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    margin: 0 0 66px;
+    text-align: center;
+    position: relative;
+}
+.page-section__block {
+    display: block;
+    margin: 0 auto;
+    max-width: 1104px;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+.page-section__block:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.mb-n60, .my-n60 {
+    margin-bottom: -60px!important;
+}
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+.page-section__block:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.input-btn input[type=file] {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.wpcf7 input[type="file"] {
+    cursor: pointer;
+}
+.select2-selection--single:focus {
+    color: #1e202e;
+    background-color: #fff;
+    border-color: #498cd8;
+    outline: 0;
+    box-shadow: none;
+}
+button, input {
+    overflow: visible;
+}
+.btn-primary:disabled {
+    box-shadow: 0 3px 11px rgb(0 0 0 / 12%), 0 3px #2a72c4;
+}
+.wpcf7-submit:disabled {
+    cursor: not-allowed;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #498cd8;
+    border-color: #498cd8;
+}
+.btn.disabled, .btn:disabled {
+    opacity: .65;
+}
+.btn:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.btn {
+    min-width: 160px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #5e5e5e;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0 solid transparent;
+    padding: 11px 36px;
+    font-size: 1.0625rem;
+    line-height: 1.7647058824;
+    border-radius: 26px;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.titleFont{
+    font-family: roboto;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+
+    
+}
+.page-section--preview {
+    background: -webkit-linear-gradient(right,#05734d,#045899);
+    background: linear-gradient(270deg,#05734d,#045899);
+    margin-top: -90px;
+    padding: 138px 0 84px;
+    position: relative;
+}
+.page-section {
+    padding: 76px 0;
+}
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+}
