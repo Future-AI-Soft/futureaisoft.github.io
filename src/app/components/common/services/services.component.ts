@@ -7,11 +7,24 @@ import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@an
 })
 export class ServicesComponent implements OnInit {
   @HostBinding('class') classes: string = '';
-  @Input() breadcrumbTitle: string = 'SaaS Software Development';
-  @Input() techTitle: string = 'Software-as-a-service (SaaS) Development Services';
-  @Input() serviceDesc: string = 'By combining a broad range of technical expertise with an unparalleled commitment to customer satisfaction, Kanda has become an authoritative option for companies looking to develop SaaS applications of various levels of complexity.';
-  @Input() servicesTitle: string = 'SaaS Development Services';
-  @Input() services: any[] = ['Custom SaaS Software Development','SaaS Mobile App Development','Platform Design and Architecture','Front-end development and UX/UI Design','Third-Party Integrations','Custom APIs','Analytics and Data Management','Cloud Engineering Services for SaaS solutions'];
+  @Input() breadcrumbTitle: string = 'Custom Software Development';
+  @Input() title: string = 'Custom Software Development';
+  @Input() description: string = `FutureAI Soft is a premier full-service Custom Software Development, Cloud Engineering, QA and DevOps
+  company, specializing in the development of time-sensitive and innovative solutions. To every
+  project, FutureAI Soft brings a combination of domain expertise, exceptional engineering talent, rigorous
+  Agile development processes, commitment to protection of client’s IP and accountability of a US
+  company with over two decades of impeccable reputation.`;
+  @Input() serviceTitle: string = 'Custom Software Development Services';
+  @Input() services: any[] = [
+    'Discovery and Analysis',
+    'Architecture and UX/UI design',
+    'POC and MVP development',
+    'Custom Software Development',
+    'QA Testing and Automation',
+    'DevOps Implementation',
+    'Cloud Migration, Optimization and Maintenance',
+    'Support and Maintenance',
+  ];
   @Output() valueChange = new EventEmitter<boolean>();
 
   constructor() { }
