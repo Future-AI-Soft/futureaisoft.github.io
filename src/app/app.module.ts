@@ -16,6 +16,11 @@ import { DotnetComponent } from './components/technology/dotnet/dotnet.component
 import { PythonComponent } from './components/technology/python/python.component';
 import { PhpComponent } from './components/technology/php/php.component';
 import { DatascienceComponent } from './components/technology/datascience/datascience.component';
+import { CustomerComponent } from './components/about-us/customer/customer.component';
+import { BlogComponent } from './components/about-us/blog/blog.component';
+import { NewsComponent } from './components/about-us/news/news.component';
+import { RFPSubmissionComponent } from './components/about-us/rfp-submission/rfp-submission.component';
+import { ContactusComponent } from './components/about-us/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { DatascienceComponent } from './components/technology/datascience/datasc
     DotnetComponent,
     PythonComponent,
     PhpComponent,
-    DatascienceComponent
+    DatascienceComponent,
+    CustomerComponent,
+    BlogComponent,
+    NewsComponent,
+    RFPSubmissionComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
