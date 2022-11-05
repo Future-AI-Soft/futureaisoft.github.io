@@ -19,6 +19,7 @@ export class FrontendUiUxComponent implements OnInit {
     "Front-end Migration",
     "Front-end Quality assurance services",
     "Maintenance and Support",
+    "24x7 monitoring and support",
   ];
   constructor() { }
 
