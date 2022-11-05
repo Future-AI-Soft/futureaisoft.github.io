@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto-light', sans-serif;
+  }
+
 .btn-primary, .btn-primary:hover {
     color: #fff;
     background-color: #498cd8 !important;

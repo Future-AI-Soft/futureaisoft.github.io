@@ -16,11 +16,22 @@ import { DotnetComponent } from './components/technology/dotnet/dotnet.component
 import { PythonComponent } from './components/technology/python/python.component';
 import { PhpComponent } from './components/technology/php/php.component';
 import { DatascienceComponent } from './components/technology/datascience/datascience.component';
+<<<<<<< HEAD
 import { CustomerComponent } from './components/about-us/customer/customer.component';
 import { BlogComponent } from './components/about-us/blog/blog.component';
 import { NewsComponent } from './components/about-us/news/news.component';
 import { RFPSubmissionComponent } from './components/about-us/rfp-submission/rfp-submission.component';
 import { ContactusComponent } from './components/about-us/contactus/contactus.component';
+=======
+import { ServicesComponent } from './components/common/services/services.component';
+import { CustomSoftwareComponent } from './components/services/custom-software/custom-software.component';
+import { WebApplicationComponent } from './components/services/web-application/web-application.component';
+import { MobileApplicationComponent } from './components/services/mobile-application/mobile-application.component';
+import { QaAndTestingServicesComponent } from './components/services/qa-and-testing-services/qa-and-testing-services.component';
+import { FrontendUiUxComponent } from './components/services/frontend-ui-ux/frontend-ui-ux.component';
+import { ApplicationMaintananceAndSupportComponent } from './components/services/application-maintanance-and-support/application-maintanance-and-support.component';
+import { DevopsServiceComponent } from './components/services/devops-service/devops-service.component';
+>>>>>>> 1049dcb99ca5f915b5814dba0e81d6c7b9ea9851
 
 @NgModule({
   declarations: [
@@ -38,11 +49,22 @@ import { ContactusComponent } from './components/about-us/contactus/contactus.co
     PythonComponent,
     PhpComponent,
     DatascienceComponent,
+<<<<<<< HEAD
     CustomerComponent,
     BlogComponent,
     NewsComponent,
     RFPSubmissionComponent,
     ContactusComponent
+=======
+    ServicesComponent,
+    CustomSoftwareComponent,
+    WebApplicationComponent,
+    MobileApplicationComponent,
+    QaAndTestingServicesComponent,
+    FrontendUiUxComponent,
+    ApplicationMaintananceAndSupportComponent,
+    DevopsServiceComponent
+>>>>>>> 1049dcb99ca5f915b5814dba0e81d6c7b9ea9851
   ],
   imports: [
     BrowserModule,
