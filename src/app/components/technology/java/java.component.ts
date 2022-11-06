@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class JavaComponent implements OnInit {
   breadcrumbTitle = 'Java Development'
   techTitle = 'Java Software Development Services'
-  serviceDesc = `With over 25 years of experience in Java Development and Dedication to Delivery excellence, Kanda
-  has achieved the highest level of technology and domain expertise in developing, testing,
-  and maintaining world-class Java Software Solutions customized uniquely to clients’ needs and budget.`;
+  serviceDesc = `With over 25 years of trip in Java Development and Dedication to Delivery excellence, Futureraisoft
+  has carried out the perfect degree of technological know-how and area knowledge in developing, testing,
+  and keeping world-class Java Software Solutions custom-made uniquely to clients’ wants and budget.`;
   servicesTitle = 'FutureAI Soft’s Custom Java Development Services include:'
   services = [
     'Custom Java Software Development',

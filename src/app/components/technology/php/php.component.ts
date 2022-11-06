@@ -8,11 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PhpComponent implements OnInit {
   breadcrumbTitle = 'PHP Development Services'
   techTitle = 'PHP Development Services'
-  serviceDesc = `Our PHP team has extensive experience in delivering exceptional custom PHP applications for a
-  variety of industries.
-  \n
-  For over 20 years we have been helping clients develop PHP solutions ranging from simple portals to
-  enterprise-grade applications uniquely tailored to the needs and requirements of each business.`
+  serviceDesc = `Our PHP group has vast journey in handing over superb customized PHP functions for a range of industries. \n
+   For over 6 years we have been assisting consumers enhance PHP options ranging from easy portals to enterprise-grade functions uniquely tailor-made to the wants and necessities of every business.`
   servicesTitle = 'PHP Development Services'
   services = [
     'Custom PHP Application Development',

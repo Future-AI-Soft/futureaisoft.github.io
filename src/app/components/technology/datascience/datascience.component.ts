@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DatascienceComponent implements OnInit {
   breadcrumbTitle = 'Data Science Development'
   techTitle = 'Data Science Development Service'
-  serviceDesc = `With over 25 years of experience in Java Development and Dedication to Delivery excellence, Kanda
-  has achieved the highest level of technology and domain expertise in developing, testing,
-  and maintaining world-class Java Software Solutions customized uniquely to clients’ needs and budget.`;
+  serviceDesc = `With over 5 years of trip in Java Development and Dedication to Delivery excellence, Kanda has performed the easiest stage of technological know-how and area information in developing, testing, and retaining world-class Java Software Solutions custom-made uniquely to clients’ wishes and budget. `;
   servicesTitle = 'Data Science Development Services'
   services = []
   constructor() { }
