@@ -8,11 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MobileApplicationComponent implements OnInit {
   breadcrumbTitle: string = 'Mobile Application Development';
   title: string = 'Mobile Application Development Services';
-  description: string = `We are pushing the boundaries of what’s possible on mobile by creating transformative mobile
-  experiences that solve business challenges for clients ranging from large enterprises to innovative
-  startups and creative entrepreneurs. With in-depth knowledge of native iOS, Android and
-  cross-platform application development, we make sure that your idea is transformed into a
-  beautifully designed, user-friendly and engaging mobile solution of a superior quality.`;
+  description: string = `We are pushing the boundaries of what’s viable on cellular by using growing transformative cell experiences that clear up enterprise challenges for purchasers ranging from massive businesses to revolutionary startups and innovative entrepreneurs. With in-depth understanding of native iOS, Android, and cross-platform utility development, we make positive that your notion is modified into a fantastically designed, user-friendly, and enticing cell answer of greatest quality.`;
   serviceTitle: string = 'Mobile App Development Services';
   services: any[] = [
     'Native iOS mobile app development',

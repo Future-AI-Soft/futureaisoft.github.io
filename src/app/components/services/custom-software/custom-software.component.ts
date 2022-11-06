@@ -8,11 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CustomSoftwareComponent implements OnInit {
   breadcrumbTitle: string = 'Custom Software Development';
   title: string = 'Custom Software Development';
-  description: string = `FutureAI Soft is a premier full-service Custom Software Development, Cloud Engineering, QA and DevOps
-  company, specializing in the development of time-sensitive and innovative solutions. To every
-  project, FutureAI Soft brings a combination of domain expertise, exceptional engineering talent, rigorous
-  Agile development processes, commitment to protection of client’s IP and accountability of a US
-  company with over two decades of impeccable reputation.`;
+  description: string = `FutureAI Soft is a premier full-service Custom Software Development, Cloud Engineering, QA and DevOps company, specializing in the improvement of time-sensitive and revolutionary solutions. To each project, FutureAI Soft brings a aggregate of area expertise, extraordinary engineering talent, rigorous Agile improvement processes, dedication to safety of client’s IP and accountability of a US organization with over two many years of impeccable reputation.`;
   serviceTitle: string = 'Custom Software Development Services';
   services: any[] = [
     'Discovery and Analysis',

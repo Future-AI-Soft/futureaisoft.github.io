@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DevopsServiceComponent implements OnInit {
   breadcrumbTitle: string = 'DevOps Services';
   title: string = 'DevOps Services and Solutions';
-  description: string = `Achieve a greater business agility and a faster time to market by eliminating bottlenecks in software
-  development with Kanda’s DevOps Services. Continuous Delivery makes staying ahead of the
-  competition and impressing your customers with products they really want a breeze.`;
+  description: string = `Achieve a greater business agility and a faster time to market by eliminating bottlenecks in software development with Kanda’s DevOps Services. Continuous Delivery makes staying ahead of the competition and impressing your customers with products they really want a breeze.`;
   serviceTitle: string = 'DevOps-as-a-Service Practice';
   services: any[] = [
     "Devops maturity assessment",

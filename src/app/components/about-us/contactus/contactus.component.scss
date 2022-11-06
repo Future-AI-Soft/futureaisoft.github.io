@@ -213,7 +213,7 @@ input[type="hidden" i] {
     content: "";
     display: table;
 }
-.input-btn input[type=file] {
+.input-btn {
     bottom: 0;
     display: block;
     height: 100%;
@@ -252,7 +252,7 @@ input[type="hidden" i] {
     -ms-flex: 0 1 100%;
     flex: 0 1 100%;
 }
-.input-btn input[type=file] {
+.input-btn {
     bottom: 0;
     display: block;
     height: 100%;
