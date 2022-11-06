@@ -7,6 +7,10 @@ import { NewsComponent } from './components/about-us/news/news.component';
 import { RFPSubmissionComponent } from './components/about-us/rfp-submission/rfp-submission.component';
 import { TeamComponent } from './components/about-us/team/team.component';
 import { WorkingWithFaiComponent } from './components/about-us/working-with-fai/working-with-fai.component';
+import { AwsComponent } from './components/cloud-partners/aws/aws.component';
+import { AzureComponent } from './components/cloud-partners/azure/azure.component';
+import { GoogleComponent } from './components/cloud-partners/google/google.component';
+import { CloudPartnersComponent } from './components/common/cloud-partners/cloud-partners.component';
 import { TechnologyComponent } from './components/common/technology/technology.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { ApplicationMaintananceAndSupportComponent } from './components/services/application-maintanance-and-support/application-maintanance-and-support.component';
@@ -42,6 +46,9 @@ const routes: Routes = [
   { path: 'app-maintanance-and-support', component: ApplicationMaintananceAndSupportComponent },
   { path: 'front-end-and-ux-design', component: FrontendUiUxComponent },
   { path: 'devops-service', component: DevopsServiceComponent },
+  { path: 'cloud-aws-service', component: AwsComponent },
+  { path: 'cloud-google-service', component: GoogleComponent },
+  { path: 'cloud-azure-service', component: AzureComponent },
 ];
 
 @NgModule({

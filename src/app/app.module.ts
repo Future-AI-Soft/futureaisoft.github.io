@@ -16,13 +16,19 @@ import { DotnetComponent } from './components/technology/dotnet/dotnet.component
 import { PythonComponent } from './components/technology/python/python.component';
 import { PhpComponent } from './components/technology/php/php.component';
 import { DatascienceComponent } from './components/technology/datascience/datascience.component';
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7e8c61d253d7148148964046d300a4e537962a4
 import { CustomerComponent } from './components/about-us/customer/customer.component';
 import { BlogComponent } from './components/about-us/blog/blog.component';
 import { NewsComponent } from './components/about-us/news/news.component';
 import { RFPSubmissionComponent } from './components/about-us/rfp-submission/rfp-submission.component';
 import { ContactusComponent } from './components/about-us/contactus/contactus.component';
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7e8c61d253d7148148964046d300a4e537962a4
 import { ServicesComponent } from './components/common/services/services.component';
 import { CustomSoftwareComponent } from './components/services/custom-software/custom-software.component';
 import { WebApplicationComponent } from './components/services/web-application/web-application.component';
@@ -31,7 +37,10 @@ import { QaAndTestingServicesComponent } from './components/services/qa-and-test
 import { FrontendUiUxComponent } from './components/services/frontend-ui-ux/frontend-ui-ux.component';
 import { ApplicationMaintananceAndSupportComponent } from './components/services/application-maintanance-and-support/application-maintanance-and-support.component';
 import { DevopsServiceComponent } from './components/services/devops-service/devops-service.component';
-
+import { CloudPartnersComponent } from './components/common/cloud-partners/cloud-partners.component';
+import { AwsComponent } from './components/cloud-partners/aws/aws.component';
+import { GoogleComponent } from './components/cloud-partners/google/google.component';
+import { AzureComponent } from './components/cloud-partners/azure/azure.component';
 
 @NgModule({
   declarations: [
@@ -49,13 +58,11 @@ import { DevopsServiceComponent } from './components/services/devops-service/dev
     PythonComponent,
     PhpComponent,
     DatascienceComponent,
-
     CustomerComponent,
     BlogComponent,
     NewsComponent,
     RFPSubmissionComponent,
     ContactusComponent,
-
     ServicesComponent,
     CustomSoftwareComponent,
     WebApplicationComponent,
@@ -63,8 +70,11 @@ import { DevopsServiceComponent } from './components/services/devops-service/dev
     QaAndTestingServicesComponent,
     FrontendUiUxComponent,
     ApplicationMaintananceAndSupportComponent,
-    DevopsServiceComponent
-
+    DevopsServiceComponent,
+    CloudPartnersComponent,
+    AwsComponent,
+    GoogleComponent,
+    AzureComponent,
   ],
   imports: [
     BrowserModule,
