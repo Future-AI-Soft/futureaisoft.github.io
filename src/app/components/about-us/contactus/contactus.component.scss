@@ -1,5 +1,5 @@
 .page-section--preview:before {
-    background: url(https://www.kandasoft.com/wp-content/themes/pinboard/dist/images/startups-bg.png) scroll 50%/cover no-repeat;
+    background: url(/assets/about/startups-bg.png) scroll 50%/cover no-repeat;
     bottom: 0;
     content: "";
     display: block;
@@ -213,7 +213,7 @@ input[type="hidden" i] {
     content: "";
     display: table;
 }
-.input-btn {
+.input-btn input {
     bottom: 0;
     display: block;
     height: 100%;
@@ -252,7 +252,7 @@ input[type="hidden" i] {
     -ms-flex: 0 1 100%;
     flex: 0 1 100%;
 }
-.input-btn {
+.input-btn input {
     bottom: 0;
     display: block;
     height: 100%;

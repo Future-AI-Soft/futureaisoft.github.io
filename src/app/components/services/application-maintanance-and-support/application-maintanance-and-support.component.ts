@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ApplicationMaintananceAndSupportComponent implements OnInit {
   breadcrumbTitle: string = 'Application Maintenance & Support';
   title: string = 'Application Maintenance & Support Services';
-  description: string = `Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. Kanda renovation and help groups seamlessly combo with clients' improvement and assist practices making sure clean software program operation and scalability.`;
+  description: string = `Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. FutureAI Soft renovation and help groups seamlessly combo with clients' improvement and assist practices making sure clean software program operation and scalability.`;
   serviceTitle: string = 'Application Maintenance Services';
   services: any[] = [
     "Application monitoring",

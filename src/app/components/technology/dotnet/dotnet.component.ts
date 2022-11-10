@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DotnetComponent implements OnInit {
   breadcrumbTitle = '.NET Development'
   techTitle = '.NET Development Services'
-  serviceDesc = `Since .NET inception in early 2000s, Kanda has been supporting businesses and startups build, upgrade,
+  serviceDesc = `Since .NET inception in early 2000s, FutureAI Soft has been supporting businesses and startups build, upgrade,
   modernize and keep dependable and scalable multi-purpose, cross-platform, cross-device .NET
   solutions and functions for a wide vary of industries.
   .\n
