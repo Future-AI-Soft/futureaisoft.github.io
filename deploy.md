@@ -4,3 +4,5 @@
  3. ngh --dir dist/project-name
 
  ng deploy --base-href=/futureaisoft.github.io/
+ ng build --output-path docs --base-href /futureaisoft.github.io/
+ ng build --output-path docs --base-href /futureaisoft.github.io/
