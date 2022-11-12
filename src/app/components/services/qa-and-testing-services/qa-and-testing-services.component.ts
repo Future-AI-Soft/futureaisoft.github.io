@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-qa-and-testing-services',
@@ -23,7 +24,14 @@ export class QaAndTestingServicesComponent implements OnInit {
     'Test Automation',
     'Web, Mobile, On-premises Applications',
   ];
-  constructor() { }
+  constructor(private meta: Meta, private pageTitle: Title) {
+    this.meta.addTags([
+      {name: 'description', content: 'When your company is in need of software quality assurance services, FutureAI can help. We can help you maximize your team&#039;s productivity while we take on QA support and testing initiatives.'},
+      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'keywords', content: 'software quality assurance,quality assurance services,software quality,software qa service,software quality assurance company,software testing services,software qa company,application qa and testing,qa services,application testing'}
+    ]);
+    this.pageTitle.setTitle('Mobile App Development || FutureaAI Software')
+   }
 
   ngOnInit(): void {
   }

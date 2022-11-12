@@ -69,7 +69,7 @@ import { AzureComponent } from './components/cloud-partners/azure/azure.componen
     AzureComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],

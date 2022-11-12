@@ -10,13 +10,12 @@ export class LandingComponent implements OnInit {
 
   constructor(private meta: Meta, private title: Title) {
     this.meta.addTags([
-      {name: 'description', content: 'Home page'},
+      {name: 'description', content: 'Futureaisoft is an elementary Web Software Development Company that develops sophisticated and innovative solutions.'},
       {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
-      {name: 'keywords', content: 'Custom Software, Mobile Application, DevOps'}
+      {name: 'keywords', content: 'Software development,Software development company, DevOps'}
     ]);
-    this.title.setTitle('Home Page')
+    this.title.setTitle('Futureai Software: Best Software Development Company')
    }
-
   
 
   ngOnInit(): void {
