@@ -8,6 +8,7 @@ import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@an
 export class TechnologyComponent implements OnInit {
 
   @HostBinding('class') classes: string = '';
+  @Input() bgImagePath: string = '/assets/about/sas-bg.png';
   @Input() breadcrumbTitle: string = 'SaaS Software Development';
   @Input() techTitle: string = 'Software-as-a-service (SaaS) Development Services';
   @Input() serviceDesc: string = 'By combining a broad range of technical expertise with an unparalleled commitment to customer satisfaction, FutureAI Soft has become an authoritative option for companies looking to develop SaaS applications of various levels of complexity.';

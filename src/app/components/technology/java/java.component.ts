@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-java',
   templateUrl: './java.component.html',
@@ -24,8 +24,16 @@ export class JavaComponent implements OnInit {
     'Java Application Integration Services'
   ]
 
-  constructor() { }
-
+ 
+  
+   constructor(private meta: Meta, private pageTitle: Title) {
+    this.meta.addTags([
+      {name: 'description', content: 'FutureaAI Software provides '},
+      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'keywords', content: 'java development kit,java development companies,java development company,android java development,java development for android,java development software,java development services,outsourcing java development,outsource java development,visual studio for java development,java development outsource,custom java development,java development kit developer,java development certification,java development salary,ios java developmen,java development team,java development company india,java development company bangladesh,java development company usa,java development company canada,java development company UK,java development company pakisthan,java development company america,best ide for java development,best company for java development'}
+    ]);
+    this.pageTitle.setTitle(' || FutureaAI Software')
+   }
   ngOnInit(): void {
   }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-google',
   templateUrl: './google.component.html',
@@ -20,7 +20,16 @@ export class GoogleComponent implements OnInit {
     {title: 'Cloud Managed Services', services: ['Infrastructure Modernization', '24x7 Managed Services']},
     {title: 'Business Intelligence and Analytics on GCP', services: ['Data Warehousing on GCP', 'Business Intelligence Solutions', 'Teradata Migration', 'Predictive Analytics', 'Marketing Analytics Platforms on GCP', 'Genomics Data Analytics']}
   ];
-  constructor() { }
+ 
+  
+   constructor(private meta: Meta, private pageTitle: Title) {
+    this.meta.addTags([
+      {name: 'description', content: 'As a depended on Google Cloud Platform Partner, FutureAI Soft affords end-to-end offerings and consulting for organizations creating and managing options on Google Cloud Platform. We have massive understanding imposing GCP options for our clients, each transferring current functions and constructing cloud-native solutions.'},
+      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'keywords', content: 'software development,the google cloud,cloud company,google cloud platform,cloud services,google platform,google cloud server,google cloud computing,platform services,google cloud services,cloud platform,gcp google,gcp data analytics,google cloud security,google cloud gcp,cloud development,gcp compute,google compute platform,google cloud computing services,google cloud customer service,google cloud customer service,google cloud partner,cloud business,google cloud engineer,google cloud products,google cloud project,cloud application development,google cloud developer,google cloud migration,cloud it services,cloud services company,google cloud cloud,google cloud computing engine,google cloud coding,google cloud offerings,gcp cloud services,cloud application development company,cloud platform software,google google cloud'}
+    ]);
+    this.pageTitle.setTitle('Google Cloud Platform Services & Solutionss || FutureaAI Software')
+   }
 
   ngOnInit(): void {
   }

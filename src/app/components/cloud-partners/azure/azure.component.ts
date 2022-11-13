@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-azure',
   templateUrl: './azure.component.html',
@@ -21,7 +21,16 @@ export class AzureComponent implements OnInit {
     {title: 'Microsoft Azure DevOps Services', services: ['CI/CD Implementation', 'Infrastructure as a Code', 'Quality Assurance, Automation, Orchestration and Testing', 'Software Release Automation on Microsoft Azure Platform']},
     {title: 'Business Intelligence and Analytics on Azure', services: ['Microsoft Azure Data Warehousing', 'Business Intelligence Solutions', 'Predictive Analytics']}
   ];
-  constructor() { }
+  
+  
+  constructor(private meta: Meta, private pageTitle: Title) {
+   this.meta.addTags([
+     {name: 'description', content: 'FutureAI Soft affords end-to-end customized software program development, cloud migration, engineering, and DevOps offerings for groups creating and managing functions on Microsoft Azure. We assist customers take full gain of Microsoft Azure platform whether or not they are searching to migrate present applications, modernize legacy structures or improve cloud-native solutions.'},
+     {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+     {name: 'keywords', content: 'cloud azure service,micro soft azure,microsoft clouds,azure is,azure virtual desktop,azure service,azure arc,microsoft azure cloud,azure ms,microsoft azure pricing,azure vms,azure site recovery,azure migrate,azure security,azure vdi,azure cloud server,azure google cloud aws,microsoft azure s3,azure better than aws,azure compared to aws,google cloud comparison,microsoft cloud service,gcp azure aws,google cloud aws azure,azure aws gcp comparison,aws azure gcp service comparison'}
+   ]);
+   this.pageTitle.setTitle('Microsoft Azure Services || FutureaAI Software')
+  }
 
   ngOnInit(): void {
   }

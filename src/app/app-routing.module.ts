@@ -49,6 +49,7 @@ const routes: Routes = [
   { path: 'cloud-aws-service', component: AwsComponent },
   { path: 'cloud-google-service', component: GoogleComponent },
   { path: 'cloud-azure-service', component: AzureComponent },
+  { path: 'saas-technology', component: SaasComponent },
 ];
 
 @NgModule({
