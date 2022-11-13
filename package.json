@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev:ssr": "ng run futureaisoftapp:serve-ssr",
     "serve:ssr": "node dist/futureaisoftapp/server/main.js",
-    "build:ssr": "ng build && ng run futureaisoftapp:server",
+    "build:ssr": "ng build --base-href ./ && ng run futureaisoftapp:server",
     "prerender": "ng run futureaisoftapp:prerender"
   },
   "private": true,
