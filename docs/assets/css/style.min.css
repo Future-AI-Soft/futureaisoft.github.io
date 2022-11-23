@@ -3024,7 +3024,7 @@ p {
     }
 
     #topnav .navigation-menu>li .submenu {
-        display: none;
+        display: block;
         list-style: none;
         padding-left: 20px;
         margin: 0
