@@ -1,6 +1,6 @@
 /* Template Name: futureaisoft - Saas & Software Landing Page Template
    Author: futureaisoft
-   E-mail: support@futureaisoft.in
+   E-mail: support@futureaisoft.com
    Created: August 2019
    Version: 3.8.0
    Updated: July 2021
