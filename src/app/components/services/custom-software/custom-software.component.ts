@@ -25,7 +25,7 @@ export class CustomSoftwareComponent implements OnInit {
 
   constructor(private meta: Meta, private pageTitle: Title) {
     this.meta.addTags([
-      {name: 'description', content: 'Futureaisoft is a Custom Software Development Company that develops sophisticated and innovative solutions.'},
+      {name: 'description', content: 'Future AI Soft is a Custom Software Development Company that develops sophisticated and innovative solutions.'},
       {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
       {name: 'keywords', content: 'custom software development,software development solutions,software development services,development services,software services,software development company,custom software development companies,software development companies,custom software development company'}
     ]);
