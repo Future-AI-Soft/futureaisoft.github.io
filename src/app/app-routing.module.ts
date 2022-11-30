@@ -29,7 +29,7 @@ import { SaasComponent } from './components/technology/saas/saas.component';
 const routes: Routes = [
   {path: '', component: LandingComponent},
   { path: 'working-with-fai', component: WorkingWithFaiComponent },
-  { path: 'team', component: TeamComponent },
+  // { path: 'team', component: TeamComponent },
   { path: 'customer', component: CustomerComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'news', component: NewsComponent },
