@@ -10,14 +10,16 @@
             </p>
         </div>
     </section>
+
     <section class=page-section>
         <div class=page-section__block>
             <div role=form class=wpcf7 id=wpcf7-f24038-p331-o1 lang=en-US dir=ltr>
                 <div class=screen-reader-response>
                     <p role=status aria-live=polite aria-atomic=true></p>
                     <ul></ul>
+
                 </div>
-                <form>
+                <form [formGroup]="contactForm" (ngSubmit)="contactFormSubmit()">
                     <div style="display: none;">
                         <input type=hidden name=_wpcf7 value=24038>
                         <input type=hidden name=_wpcf7_version value=5.6.4>
@@ -28,25 +30,40 @@
                         <input type=hidden name=_wpcf7_recaptcha_response value>
                     </div>
                     <div class="form-body form-body--contact-us">
+                        <div class="form-row">
+                            <div class="col-md-12" style="text-align: center;">
+
+                            </div>
+                        </div>
                         <div class=form-row>
+                            <div class=col-md-12>
+                                <div class=form-group>
+                                    <h3 style="text-align: center;">Get In Touch With Us</h3>
+                                </div>
+                            </div>
                             <div class=col-md-6>
                                 <div class=form-group>
                                     <label for=contact-us-first-name>First Name <sup
                                             class="font-weight-semi-bold text-danger">*</sup></label> <span
-                                        class=wpcf7-form-control-wrap data-name=first-name><input type=text
-                                            name=first-name value size=40
-                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                            id=contact-us-first-name aria-required=true aria-invalid=false></span>
+                                        class=wpcf7-form-control-wrap data-name=first-name> <input type="text"
+                                            class="form-control" formControlName="first_name" placeholder="First name">
+
+                                        <span class="ErrorColor"
+                                            *ngIf="first_name && first_name.invalid && first_name.touched">This filed is
+                                            required</span>
+                                        <br></span>
                                 </div>
                             </div>
                             <div class=col-md-6>
                                 <div class=form-group>
                                     <label for=contact-us-last-name>Last Name <sup
                                             class="font-weight-semi-bold text-danger">*</sup></label> <span
-                                        class=wpcf7-form-control-wrap data-name=last-name><input type=text
-                                            name=last-name value size=40
-                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
-                                            id=contact-us-last-name aria-required=true aria-invalid=false></span>
+                                        class=wpcf7-form-control-wrap data-name=last-name><input type="text"
+                                            class="form-control" formControlName="last_name" placeholder="Last name">
+
+                                        <span class="ErrorColor"
+                                            *ngIf="last_name && last_name.invalid && last_name.touched">This filed is
+                                            required</span></span>
                                 </div>
                             </div>
                         </div>
@@ -55,38 +72,47 @@
                                 <div class=form-group>
                                     <label for=contact-us-email>Email <sup
                                             class="font-weight-semi-bold text-danger">*</sup></label> <span
-                                        class=wpcf7-form-control-wrap data-name=email><input type=email name=email value
-                                            size=40
-                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
-                                            id=contact-us-email aria-required=true aria-invalid=false></span>
+                                        class=wpcf7-form-control-wrap data-name=email><input type="text"
+                                            class="form-control" formControlName="email" placeholder="Last name">
+
+                                        <span class="ErrorColor" *ngIf="email && email.invalid && email.touched">This
+                                            filed is
+                                            required</span></span>
                                 </div>
                                 <div class=form-group>
                                     <label for=contact-us-phone-number>Phone Number</label> <span
-                                        class=wpcf7-form-control-wrap data-name=phone-number><input type=tel
-                                            name=phone-number value size=40
-                                            class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel form-control"
-                                            id=contact-us-phone-number aria-invalid=false></span>
+                                        class=wpcf7-form-control-wrap data-name=phone-number><input type="text"
+                                            class="form-control" formControlName="phone" placeholder="Phone">
+
+                                        <span class="ErrorColor" *ngIf="phone && phone.invalid && phone.touched">This
+                                            filed is
+                                            required</span></span>
                                 </div>
                                 <div class=form-group>
                                     <label for=contact-us-company>Company</label> <span class=wpcf7-form-control-wrap
-                                        data-name=company><input type=text name=company value size=40
-                                            class="wpcf7-form-control wpcf7-text form-control" id=contact-us-company
-                                            aria-invalid=false></span>
+                                        data-name=company><input type="text" class="form-control"
+                                            formControlName="org_name" placeholder="Company name">
+
+                                        <span class="ErrorColor"
+                                            *ngIf="org_name && org_name.invalid && org_name.touched">This filed is
+                                            required</span></span>
                                 </div>
                             </div>
                             <div class="col-md-6 d-flex flex-column">
                                 <div class="form-group flex-grow-1 d-flex flex-column">
                                     <label for=contact-us-message>Message <sup
                                             class="font-weight-semi-bold text-danger">*</sup></label> <span
-                                        class=wpcf7-form-control-wrap data-name=message><textarea name=message cols=40
-                                            rows=4
-                                            class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control h-100"
-                                            id=contact-us-message aria-required=true
-                                            aria-invalid=false></textarea></span>
+                                        class=wpcf7-form-control-wrap data-name=message><textarea type="text" cols="40"
+                                            row="4" class="form-control boxHeight" formControlName="message"
+                                            placeholder="How can FAISS help you?">
+                                        </textarea>
+                                        <span class="ErrorColor"
+                                            *ngIf="message && message.invalid && message.touched">This filed is
+                                            required</span></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <!-- <div class="form-row">
                             <div class="col-md-12">
                                 <div class="form-group form-group--file">
                                     <div class=" btn btn-muted btn-sm" style="margin-top:2%"> <span class="wpcf7-form-control-wrap"
@@ -98,7 +124,7 @@
                                     (optional)</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="form-row">
                             <div class=col-md-12>
                                 <div class="form-group form-group--submit btn-wrapper">
@@ -107,6 +133,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-row  mt-3">
+                            <div class=col-md-12>
+                                <div class="form-group btn-wrapper">
+                                    <a style="text-align: center;" href="mailto:{{faissEmail}}">Contact via E-mail</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class=wpcf7-response-output aria-hidden=true></div>
                 </form>
@@ -161,7 +195,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 d-flex align-items-center justify-content-center py-3"> <img class="mt-90 mt-lg-0"
-                        src="assets/about/rfp/FutureAiSoft-Locations.png" alt="Our Locations"  style="margin-left:20%">
+                        src="assets/about/rfp/FutureAiSoft-Locations.png" alt="Our Locations" style="margin-left:20%">
                 </div>
             </div>
         </div>

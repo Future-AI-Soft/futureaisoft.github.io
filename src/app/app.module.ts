@@ -33,6 +33,8 @@ import { CloudPartnersComponent } from './components/common/cloud-partners/cloud
 import { AwsComponent } from './components/cloud-partners/aws/aws.component';
 import { GoogleComponent } from './components/cloud-partners/google/google.component';
 import { AzureComponent } from './components/cloud-partners/azure/azure.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -67,10 +69,14 @@ import { AzureComponent } from './components/cloud-partners/azure/azure.componen
     AwsComponent,
     GoogleComponent,
     AzureComponent,
+    
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
