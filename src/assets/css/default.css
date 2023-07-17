@@ -101,7 +101,7 @@
 .accordion .accordion-button:not(.collapsed),
 .accordion .accordion-item .accordion-button:before,
 #navmenu-nav li.active a {
-    color: #2f55d4 !important;
+    color: #9a9595 !important;
 }
 
 .btn-primary,

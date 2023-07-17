@@ -2642,7 +2642,7 @@ p {
 
 #topnav .navigation-menu>li:hover>a,
 #topnav .navigation-menu>li.active>a {
-    color: #2f55d4 !important
+    color: #fff !important
 }
 
 #topnav .navigation-menu>li>a {
