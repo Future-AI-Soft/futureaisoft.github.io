@@ -24,7 +24,7 @@ export class MobileApplicationComponent implements OnInit {
   constructor(private meta: Meta, private pageTitle: Title) {
     this.meta.addTags([
       {name: 'description', content: 'FutureaAI Software provides mobile app development services for companies, who seek to develop iOS, Flutter and Android solutions.'},
-      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'author', content: 'Future AI Software Development Services Ltd.'},
       {name: 'keywords', content: 'mobile app development company,mobile application development,mobile app development services,custom mobile application development,ios development services,android development,mobile apps development,mobile solutions'}
     ]);
     this.pageTitle.setTitle('ware Quality Assurance Company || FutureaAI Software')

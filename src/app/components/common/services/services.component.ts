@@ -9,9 +9,9 @@ export class ServicesComponent implements OnInit {
   @HostBinding('class') classes: string = '';
   @Input() breadcrumbTitle: string = 'Custom Software Development';
   @Input() title: string = 'Custom Software Development';
-  @Input() description: string = `FutureAI Soft is a premier full-service Custom Software Development, Cloud Engineering, QA and DevOps
+  @Input() description: string = `Future AI Soft is a premier full-service Custom Software Development, Cloud Engineering, QA and DevOps
   company, specializing in the development of time-sensitive and innovative solutions. To every
-  project, FutureAI Soft brings a combination of domain expertise, exceptional engineering talent, rigorous
+  project, Future AI Soft brings a combination of domain expertise, exceptional engineering talent, rigorous
   Agile development processes, commitment to protection of client’s IP and accountability of a US
   company with over two decades of impeccable reputation.`;
   @Input() serviceTitle: string = 'Custom Software Development Services';

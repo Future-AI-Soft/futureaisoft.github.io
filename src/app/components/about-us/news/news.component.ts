@@ -11,8 +11,8 @@ export class NewsComponent implements OnInit {
  
   constructor(private meta: Meta, private pageTitle: Title) {
    this.meta.addTags([
-     {name: 'description', content: 'FutureAI Soft Ceased Operations in Bangladesh'},
-     {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+     {name: 'description', content: 'Future AI Soft Ceased Operations in Bangladesh'},
+     {name: 'author', content: 'Future AI Software Development Services Ltd.'},
      {name: 'keywords', content: 'software news,software development,software services,software development company,software project,custom software development company,custom software,custom software,custom software developer,software all,software team,software developer news'}
    ]);
    this.pageTitle.setTitle('News  || FutureaAI Software')

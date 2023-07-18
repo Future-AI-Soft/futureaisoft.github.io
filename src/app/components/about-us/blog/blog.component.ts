@@ -11,7 +11,7 @@ export class BlogComponent implements OnInit {
   constructor(private meta: Meta, private title: Title) {
     this.meta.addTags([
       {name: 'description', content: ''},
-      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'author', content: 'Future AI Software Development Services Ltd.'},
       {name: 'keywords', content: 'Blog, Cloud migration,Data science, Software development,Software development company, DevOps'}
     ]);
     this.title.setTitle('Futureai Software:  blog is home to our posts on topics from software development, DevOps, Healthcare and Life Sciences to AI innovation. Explore more || FutureaAI Software')

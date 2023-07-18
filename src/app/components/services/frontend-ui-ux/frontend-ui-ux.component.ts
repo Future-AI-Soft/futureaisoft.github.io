@@ -24,7 +24,7 @@ export class FrontendUiUxComponent implements OnInit {
    constructor(private meta: Meta, private pageTitle: Title) {
     this.meta.addTags([
       {name: 'description', content: 'FutureaAI Software provides HOMETECHNOLOGYFRONT END DEVELOPMENT, UX AND UI DESIGN Front End Development, UX&UI Design Services We combination ability and knowledge to produce elegant, useful and user-focused interfaces. We let the reason of the specific net or cellular software pressure its plan and consumer ride to supply excessive consumer acceptance and engagement costs of your product.'},
-      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'author', content: 'Future AI Software Development Services Ltd.'},
       {name: 'keywords', content: 'application maintenance services can be termed as production support,maintenance application process,maintenance application process,maintenance service levels,e-maintenance software,it application services,m maintenance,o and m support,what is service and maintenance,x application,support and maintenance agreement,application maintenance support activities,define software in software engineering,number of software engineers in india,number of software engineers in bangladesh,number of software engineers in usa,number of software engineers in canada,agile software development is all about,software developer solutions'}
     ]);
     this.pageTitle.setTitle('Front End Development, UX&UI Design Services || FutureaAI Software')

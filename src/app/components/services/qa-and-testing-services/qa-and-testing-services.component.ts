@@ -9,7 +9,7 @@ import { Meta, Title } from '@angular/platform-browser';
 export class QaAndTestingServicesComponent implements OnInit {
   breadcrumbTitle: string = 'QA and Testing Services';
   title: string = 'Software Quality Assurance and Testing Services';
-  description: string = `For 5 years FutureAI Soft Software utilized an Integrated Quality Assurance practice to ensure the highest
+  description: string = `For 5 years Future AI Soft Software utilized an Integrated Quality Assurance practice to ensure the highest
   quality of our deliverables. We have perfected QA and Testing strategy and methodology that blend
   seamlessly into the development lifecycle without crossing the important boundary between the
   development and software quality assurance processes.`;
@@ -26,8 +26,8 @@ export class QaAndTestingServicesComponent implements OnInit {
   ];
   constructor(private meta: Meta, private pageTitle: Title) {
     this.meta.addTags([
-      {name: 'description', content: 'When your company is in need of software quality assurance services, FutureAI can help. We can help you maximize your team&#039;s productivity while we take on QA support and testing initiatives.'},
-      {name: 'author', content: 'FutureAI Software Development Services Ltd.'},
+      {name: 'description', content: 'When your company is in need of software quality assurance services, Future AI can help. We can help you maximize your team&#039;s productivity while we take on QA support and testing initiatives.'},
+      {name: 'author', content: 'Future AI Software Development Services Ltd.'},
       {name: 'keywords', content: 'software quality assurance,quality assurance services,software quality,software qa service,software quality assurance company,software testing services,software qa company,application qa and testing,qa services,application testing'}
     ]);
     this.pageTitle.setTitle('Mobile App Development || FutureaAI Software')
