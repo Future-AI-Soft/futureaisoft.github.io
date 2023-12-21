@@ -51,5 +51,19 @@
   <!-- Main Js -->
   <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
   <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+ 
+<!-- <script>
+const scriptURL = ' https://script.google.com/macros/s/AKfycbySDlnkF-CdhAWcgrizSjcsQRg8bcKViuS6VNP2SLoTt4_xK6vxYoo78reGq61sgJ3W/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+  </script> -->
 </body>
 </html>

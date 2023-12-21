@@ -9,7 +9,7 @@ import { Meta, Title } from '@angular/platform-browser';
 export class QaAndTestingServicesComponent implements OnInit {
   breadcrumbTitle: string = 'QA and Testing Services';
   title: string = 'Software Quality Assurance and Testing Services';
-  description: string = `For 5 years Future AI Soft Software utilized an Integrated Quality Assurance practice to ensure the highest
+  description: string = `For 5 years FAISS Software utilized an Integrated Quality Assurance practice to ensure the highest
   quality of our deliverables. We have perfected QA and Testing strategy and methodology that blend
   seamlessly into the development lifecycle without crossing the important boundary between the
   development and software quality assurance processes.`;

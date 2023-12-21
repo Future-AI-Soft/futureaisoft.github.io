@@ -2,14 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Meta, Title } from '@angular/platform-browser';
 import { FaissService } from 'src/app/service/faiss.service';
+
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
   styleUrls: ['./contactus.component.scss']
 })
 export class ContactusComponent implements OnInit {
-
-  constructor(private meta: Meta, private pageTitle: Title,private faisssService: FaissService) {
+  
+  constructor(private meta: Meta, private pageTitle: Title,private faisssService: FaissService,private http: HttpClient) {
     this.meta.addTags([
       {name: 'description', content: 'To learn more about our innovative software development solutions, and our highly competitive pricing models, please contact us here. To send us an RFP, simply upload your document using the form below.'},
       {name: 'author', content: 'Future AI Software Development Services Ltd.'},
@@ -28,6 +30,13 @@ export class ContactusComponent implements OnInit {
     org_name: new FormControl([]),
   
   })
+
+
+  scriptURL = 'https://script.google.com/macros/s/AKfycbxPlb-ekcIxnyIeTgVYzAKM591bQQrgpypGEzYStWglEubFtPsl0pcUd6MOFOVKOAr2/exec';
+
+  
+
+  
   ngOnInit(): void {
   }
   get first_name() {
@@ -71,6 +80,43 @@ export class ContactusComponent implements OnInit {
      
     }else{
       alert("Something went wrong, Please try again");
+    }
+  }
+
+  // onSubmit(): void {
+  //   if (this.contactForm.valid) {
+  //     // Handle form submission here
+  //     this.http.post(this.scriptURL, this.contactForm.value)
+  //       .subscribe(
+  //         response => {
+  //           alert('Thank you! Your form is submitted successfully.');
+  //           this.contactForm.reset();
+  //         },
+  //        // error => console.error('Error!', error.message)
+  //       );
+  //   }
+  // }
+
+  onSubmit(): void {
+    if (this.contactForm.valid) {
+      const formData = new FormData();
+     
+      Object.keys(this.contactForm.value).forEach(key => {
+        formData.append(key, this.contactForm.value[key]);
+      });
+
+    
+      this.http.post(this.scriptURL, formData)
+        .subscribe(
+          () => {
+            alert('Thank you! Your form is submitted successfully.');
+            this.contactForm.reset();
+          },
+          error => {
+            console.error('Error!', error);
+            // Handle error as needed
+          }
+        );
     }
   }
 

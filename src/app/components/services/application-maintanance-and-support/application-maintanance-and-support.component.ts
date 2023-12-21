@@ -8,7 +8,7 @@ import { Meta, Title } from '@angular/platform-browser';
 export class ApplicationMaintananceAndSupportComponent implements OnInit {
   breadcrumbTitle: string = 'Application Maintenance & Support';
   title: string = 'Application Maintenance & Support Services';
-  description: string = `Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. Future AI Soft renovation and help groups seamlessly combo with clients' improvement and assist practices making sure clean software program operation and scalability.`;
+  description: string = `Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. FAISS renovation and help groups seamlessly combo with clients' improvement and assist practices making sure clean software program operation and scalability.`;
   serviceTitle: string = 'Application Maintenance Services';
   services: any[] = [
     "Application monitoring",
@@ -21,7 +21,7 @@ export class ApplicationMaintananceAndSupportComponent implements OnInit {
   
    constructor(private meta: Meta, private pageTitle: Title) {
     this.meta.addTags([
-      {name: 'description', content: 'FutureaAI Software provides Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. Future AI Soft renovation and help groups seamlessly combo with clients improvement and assist practices making sure clean software program operation and scalability.'},
+      {name: 'description', content: 'FutureaAI Software provides Outsourcing your utility preservation and aid frees up your group to center of attention on business-critical initiatives. Future AI Software and Solutions Ltd renovation and help groups seamlessly combo with clients improvement and assist practices making sure clean software program operation and scalability.'},
       {name: 'author', content: 'Future AI Software Development Services Ltd.'},
       {name: 'keywords', content: 'application maintenance and support services,maintenance application process,maintenance service levels,e-maintenance software,f5 application services,application of maintenance,utility maintenance services,support maintenance,maintenance service app,6 service,application maintenance support activities,top software developers,development,      '}
     ]);
